@@ -1,4 +1,0 @@
-Initial content Adding more content
-Adding some Content from test Branch
-
-Adding whatever because I want to test just changing the release branch
