@@ -20,12 +20,42 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 0. The right frame of mind and how to push it online
 
+The first and foremost thing to learn about any sort of programming is that Google is your best friend. The second is that it will be very frustrating at times, you will find that computers are even more picky about grammar and spelling than your English teachers. The third is that if you pull through, you will make amazing things happen. 
 
+In addition, this section will help you set up an environment to store your code in a ordered way. In doing so, I will introduce you briefly to `git` and [Github](https://github.com/), which are tools that let you collaborate with others or just brag to them about your newly acquired coding prowess.
+
+### Google, Google, Google
+
+If you find yourself with a problem, for example, I want to include a nice twitter embed into this website to make it look cool (and prove my point). I googled "embed tweet markdown", clicked the first link and here it is.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m a &quot;senior developer&quot;. I helped launch Google App Engine and spent 4 years teaching others to use it. I wrote parts of the SDK that are still in use today.<br><br>I just googled &quot;App Engine Python getting started&quot;. In case anyone&#39;s wondering when you stop Googling basic stuff.</p>&mdash; nick.eth (@nicksdjohnson) <a href="https://twitter.com/nicksdjohnson/status/1244133449323016197?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This is not the first time I've done this and as you can see, there is absolutely no shame in Googling even the most basic things for the $n^{th}$ time. It's efficient and there is no judgement. Of course, there are some problems that are more difficult to Google than this one. Hence, I recommend using a method outlined by freeCodeCamp, "Read-Search-Ask". In a nutshell, whenever you do not know how to do something, read the documentation or the error that comes up in the console. Should that not have worked, you guessed it, Google. If Google fails (unlikely), find someone experienced to talk to and ask them. [Read a more detailed description on how to use this method here.](https://www.freecodecamp.org/news/read-search-dont-be-afraid-to-ask-743a23c411b4/)
+
+Another thing worth mentioning is the "programming mindset". Don't worry, even if you're not planning a career as a developer it is still useful in other tasks and certainly to understand developers if you ever find yourself leading a team of devs. [I recommend getting acquainted with the craft by reading this short introduction to said "mindset".](https://medium.com/@nam.huu.nguyen/so-you-want-to-learn-to-code-part-1-the-mindset-47aa27c1d341)
+
+### Git and Github
+
+`Git` is a distributed version control system (DVCS), the primary objective of which is to track the history of any changes in code so that large numbers of people can collaborate on the same project. However, even if it is just a four people study group or a lonely wolf situation, `Git` is still a very good way to stay organized. An additional benefit is that anything you do with `Git`, you can freely publish online, for example on [GitHub](https://github.com), which is the most popular hosting for `Git` repositories. A repository is a useful buzzword that means a folder with the entirety of a single programming project in it. 
+
+Getting used to `Git` takes time but it is worth it. By far the easiest way to start is to open an account on GitHub and [download GitHub Desktop](https://desktop.github.com/) which is a visual interface app that lets you skip using the command line which is often scary at first. With the app, either start a repository online on GitHub, or directly in the app for your local machine.
+
+If you'd like to use the console, which can be very educational and useful in other tasks than version control. Using the command line also makes you look slightly like a hollywood hacker, which is a nice bonus. To do that, first I'd recommend you create a folder called "GitHub", then inside that folder make one called "R-course" or any other name you like. Afterwards, move into your folder using the `cd` command in the command line, for mac open an app called Terminal. My folder is in 'documents' so I move into it like this:
+```
+cd documents 
+cd GitHub
+cd R-curriculum-extras
+```
+After you've directed the console into the right folder you can follow [this guide to set up your first repository.](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/) Here, you will also learn how to add new files and sync them with your online portfolio. [Another useful guide, the git handbook, comes from GitHub itself.](https://guides.github.com/introduction/git-handbook/#github) Note that it is more of an intro article than a tutorial, of course I recommend reading both.
+
+Lastly, one of GitHub's great features is that it provides visibility and makes your projects transparent. For example, you can check out the source code of this website and some extras in [this GitHub repository](https://github.com/jedrekmiecznikowski/R-curriculum-extras), create pull requests to suggest changes if I made an error or feel free to clone it and play around with it yourself! 
+
+Another amazing example of what people do with R and share on GitHub is [the Economist's model](https://projects.economist.com/us-2020-forecast/president) that tries to predict the results of the next presidential elections in the US. In the name of transparency the whole code is richly commented and ALL of it is available online for anyone to see and learn from or even suggest changes! [You can check out the repository here](https://github.com/TheEconomist/us-potus-model).
 
 
 ## 1. Introduction to R: basic programming concepts, how to get help
 
-Here I will present the basics. Installing R and RStudio. Basic syntax, mathematical operators, objects, classes, structures.
+Here I will present the essential fundaments. Installing R and RStudio. Basic syntax, mathematical operators, objects, classes, structures.
 
 ### Installing R and RStudio
 
