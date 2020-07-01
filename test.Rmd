@@ -1,7 +1,7 @@
 ---
 title: "Additional material for coursework in R"
 author: "by Jedrek"
-date: "`r Sys.Date()`"
+date: "last updated: `r Sys.Date()`"
 output: 
   html_document:
     toc: true 
@@ -26,7 +26,7 @@ In addition, this section will help you set up an environment to store your code
 
 ### Google, Google, Google
 
-If you find yourself with a problem, for example, I want to include a nice twitter embed into this website to make it look cool (and prove my point). I googled "embed tweet markdown", clicked the first link and here it is.
+If you find yourself with a problem, __just look it up__. For example, I wanted to include a nice twitter embed into this website to make it look cool (and prove my point), but I didn't know/remember how to do that. So, I googled "embed tweet markdown", clicked the first link and here it is.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m a &quot;senior developer&quot;. I helped launch Google App Engine and spent 4 years teaching others to use it. I wrote parts of the SDK that are still in use today.<br><br>I just googled &quot;App Engine Python getting started&quot;. In case anyone&#39;s wondering when you stop Googling basic stuff.</p>&mdash; nick.eth (@nicksdjohnson) <a href="https://twitter.com/nicksdjohnson/status/1244133449323016197?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -565,6 +565,7 @@ It can be overwhelming looking at all these plots and webinar makers that seem t
 ![](images/Ggplotcheat.png)
 
 Ggplot2 is incredibly powerful and once you master it, truly beautiful things happen. I leave you with a visualisation of `diamonds`, with 4 variables at once, and yet quite readable. Color is classified alphabetically from D (best) to J (worst). The facets refer to the cut quality.
+  
 ```{r warning=FALSE, message=FALSE}
 ggplot(diamonds,
        aes(x = carat,

@@ -1,0 +1,12 @@
+name: proofofconcept
+title: proofofconcept
+username:
+account: jendrek
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2525023
+bundleId: 3338555
+url: https://jendrek.shinyapps.io/proofofconcept/
+when: 1593604328.33149
+asMultiple: FALSE
+asStatic: FALSE
